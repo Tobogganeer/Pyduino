@@ -11,6 +11,5 @@ value = 0
 
 while 1:
     time.sleep(1.5)
-    # Corruption issue with screen printing
     Pyduino.Message(PRINT_MESSAGE_TYPE, [f"Value: {value}"])
     value += 1
